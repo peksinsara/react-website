@@ -80,7 +80,7 @@ function Footer() {
         <SocialMediaWrap>
           <SocialLogo to="/">
             <SocialIcon />
-            GenZ development
+            GENZ DEV
           </SocialLogo>
           <WebsiteRights>Sara Peksin © 2021</WebsiteRights>
           <SocialIcons>
