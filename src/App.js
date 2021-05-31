@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar } from "./components";
+import { Navbar, Footer } from "./components";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import GlobalStyle from "./globalStyles";
 import Home from "./pages/Home/Home";
@@ -10,7 +10,9 @@ function App() {
       <Navbar />
       <Switch>
         <Route path="/" exact component={Home} />
+
       </Switch>
+      <Footer/>
     </Router>
   );
 }
